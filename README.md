@@ -1,11 +1,11 @@
 ### [TWINT](https://github.com/twintproject/twint) Flask-Celery Server
-Optimized tweets scraping and storing to Elasticsearch
+Optimized tweets scraping
 
 #### See also [Twint Kibana](https://github.com/Nedja995/twint_kibana)
 
 #### Requirements
 - Python3, [Twint](https://github.com/twintproject/twint), Flask, Celery
-- Elasticsearch
+- Elasticsearch(v7)
 - RabitMQ
 - (optional) Flower 
 

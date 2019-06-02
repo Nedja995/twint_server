@@ -1,4 +1,6 @@
-flask==1.0.2
-Celery==4.2.2
-twint==1.2.0
-numpy==1.14.0
+flask
+flask-cors
+Celery
+twint
+numpy
+aiohttp_socks

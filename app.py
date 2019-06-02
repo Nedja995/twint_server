@@ -59,7 +59,7 @@ def fetch_tweets():
         argument.id = i
         arguments.append(argument.__dict__)
         i += 1
-    print("Number of processes %s" % len(arguments))
+    # print("Number of processes %s" % len(arguments))
     #
     # Make processes with arguments
     jobs = group(fetch.s(item) for item in arguments)
@@ -67,7 +67,7 @@ def fetch_tweets():
     jobsResult = jobs.apply_async()
 
     # Return info
-    return "Fetching started\n%s\n%s -> %s\nProcesses count: %s" % (config.Search, config.Since, config.Until, len(arguments))
+    return "Fetching started.Processes count: %s" % len(arguments)
 
     # #
     # # Feature to track state in two way:
